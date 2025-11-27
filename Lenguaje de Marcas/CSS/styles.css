@@ -1,3 +1,28 @@
-header, main, footer {
+/*** HEADER ***/
+
+header {
+    border: 1px solid red;
+}
+
+/*** MAIN ***/
+
+main {
+    border: 1px solid red;
+    color: blue; 
+}
+
+.titulos_h2 {
+
+     color: green; 
+
+}
+.a :link  {
+ 
+    text-decoration: d 
+ 
+ }  
+/*** FOOTER ***/
+
+footer {
     border: 1px solid red;
 }
