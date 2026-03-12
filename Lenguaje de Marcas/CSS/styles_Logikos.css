@@ -107,22 +107,26 @@ header div {
 
 }
 
+body {
+    margin: 0;
+}
 
 #Principal {
-    background-image: url('images/wix/imagen_principal.png');
-        font-size: 30px;
-        font-family: 'Escuela kanahi';
-        text-align: center;
-        padding-top: 10px;
-
-
-
-
-    
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+    url('../images/wix/imagen_principal.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    font-family: 'Escuela kanahi';
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 350px;
+ 
 }
 
 
-h1 {
+h1 { 
 
     font-family: 'Aboreto1';
     color: #0A2342;
@@ -132,4 +136,150 @@ h1 {
     padding-bottom: 25px;
 
 
+}
+
+.tres_secciones {
+   font-size:0;
+
+
+}
+
+.seccion_izquierda {
+    background-color: #B8E986;
+    width: 15%;
+    text-align: center;
+    font-family: 'Aboreto1';
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: top;
+   
+    padding:20px 30px;
+    box-sizing:border-box;
+}
+
+.seccion_izquierda h3 {
+    margin-bottom: 30px;
+    padding-bottom: 61px;
+}
+
+.seccion_central {
+    background-color:#0A2342;
+    color: #B8E986;
+    font-family: 'Escuela kanahi';
+    font-size: 20px;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding:0 200px;
+    box-sizing:border-box;    
+    text-align: justify;
+}
+
+.seccion_central p {
+    
+  margin-bottom: 32px;
+    margin-top: 54px;
+   
+}
+
+.seccion_central button {
+  background-color: #B8E986; /* Color de fondo verde */
+  color: #0A2342;              /* Color del texto */
+  padding: 12px 24px;        /* Espaciado interno (arriba/abajo y lados) */
+  border: 1px solid #B8E986;              /* Borde verde */
+  border-radius: 8px;        /* Bordes redondeados */
+  cursor: pointer;           /* Cambia el cursor al pasar sobre el botón */
+  font-family: 'Aboreto2'; /* Fuente del texto */
+  font-size: 15px;           /* Tamaño de letra */
+  text-align: center;
+  transition: background-color 0.3s, transform 0.2s; /* Animación suave */
+  margin-bottom: 49px;
+  display: block;
+  margin: 0 auto 49px auto;
+}
+
+
+.seccion_derecha {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.seccion_derecha img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.Seccion_Nuestros_Articulos {
+    background-color: #0A2342;
+    padding: 50px 0;
+    text-align: center;
+    color: #F1F5F9;
+    
+}
+
+#tachado {
+  text-decoration: line-through;
+}
+
+.texto_Nuestros_Articulos{
+    font-size: 30px;
+    font-family: 'Aboreto1';
+    margin-bottom: 50px;
+    text-align: left;
+    position: relative;
+    width: 100%;
+
+}
+
+.texto_Nuestros_Articulos h2{
+   
+    margin-left: 120px;
+
+}
+
+#Cursos_titulo {
+    margin-left: 185px;
+}
+
+.texto_Nuestros_Articulos p{
+    font-size: 18px;
+    font-family: 'escuela kanahi';
+    margin-bottom: 20px;
+    width: 100%;
+    position: absolute;
+    right: 44px;
+    text-align: justify;
+    width: 600px;}
+
+
+.primer_articulo img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.segundo_articulo img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.tercer_articulo img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.cuarto_articulo img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.quinto_articulo img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
 }
