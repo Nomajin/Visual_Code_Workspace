@@ -133,8 +133,8 @@ header div {
     margin: 0;
     text-align: center;
     height: 50px;
-    margin-bottom: 40px;
-    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
     color: #B8E986;
     letter-spacing: 1px;
 
@@ -160,6 +160,26 @@ header div {
 
 .Botones_Formulario {
 
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: linear-gradient(90deg, #7ED957, #A8E063);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Aboreto1';
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.Botones_Formulario:hover {
+
+   transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(126, 217, 87, 0.6);
+
 }
 
 .Inicio-Sesion a {
@@ -171,8 +191,18 @@ header div {
 
 }
 
+.Inicio-Sesion a:hover {
+    color: #9BE564;
+}
+
 body {
 
     font-family: Arial, Helvetica, sans-serif;
     background-image: url('../images/wix/Fondo_Inicio_Sesion.png');
+}
+
+.Inicio-Sesion input::placeholder {
+
+    color: rgba(255,255,255,0.7);
+
 }
