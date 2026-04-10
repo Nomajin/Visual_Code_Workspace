@@ -109,8 +109,8 @@ header div {
 
 .Inicio-Sesion {
     
-    width: 400px;
-    height: 340px;
+    width: 500px;
+    height: 400px;
     background: rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(12px);
     border-radius: 20px;
@@ -118,6 +118,26 @@ header div {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
     margin: auto;
     margin-top: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.Inicio-Sesion-Registro  {
+    
+    width: 500px;
+    height: 700px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    margin: auto;
+    margin-top: 75px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 20px;
@@ -137,6 +157,21 @@ header div {
     margin-top: 20px;
     color: #B8E986;
     letter-spacing: 1px;
+    padding-top: 10px;
+
+
+}
+
+.Inicio-Sesion-Registro h1 {
+    font-family: 'Aboreto1';
+    margin: 0;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: #B8E986;
+    letter-spacing: 1px;
+    padding-top: 10px;
 
 
 }
@@ -154,6 +189,15 @@ header div {
 
     color: white;
     font-size: 14px;
+    font-family: 'Escuela kanahi';
+
+
+}
+
+.Campos_Formulario:hover {
+
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(126, 217, 87, 0.6);
 
 
 }
@@ -188,10 +232,27 @@ header div {
     color: rgba(255,255,255,0.7);
     font-size: 14px;
     text-decoration: none;
+    padding-top: 20px;
+    font-family: 'Escuela Kanahi';
+    
+}
 
+.Inicio-Sesion-Registro a {
+    display: block;
+    margin-top: 15px;
+    color: rgba(255,255,255,0.7);
+    font-size: 14px;
+    text-decoration: none;
+    padding-top: 20px;
+    font-family: 'Escuela Kanahi';
+    
 }
 
 .Inicio-Sesion a:hover {
+    color: #9BE564;
+}
+
+.Inicio-Sesion-Registro a:hover {
     color: #9BE564;
 }
 
@@ -205,4 +266,47 @@ body {
 
     color: rgba(255,255,255,0.7);
 
+}
+
+.Inicio-Sesion-Registro input::placeholder {
+
+    color: rgba(255,255,255,0.7);
+    
+    
+}
+
+.Casilla_Verifcacion {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    gap: 10px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.8);
+}
+
+.Casilla_Verificacion input {
+    display: none;
+}
+
+.Casilla_Verificacion label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+}
+
+.Casilla_Verificacion label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2px;
+
+    width: 18px;
+    height: 18px;
+
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 5px;
+    background: transparent;
+
+    transition: 0.3s;
 }
