@@ -13,5 +13,3 @@ console.log( usuario.nombre ); /* "Ana García" */
 var container = document.getElementById("container");
 console.log(container);
 
-/*var ej1 = document.querySelector("div .container");
-console.log(ej1);*/
